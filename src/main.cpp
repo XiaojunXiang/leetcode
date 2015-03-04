@@ -6,7 +6,8 @@ int main()
 	//tc.testTrailingZero();
 	//tc.testConvertToTitle();
 	//tc.testRotateArray();
-	tc.testFindPeakElement();
+	//tc.testFindPeakElement();
+	tc.testLargestNumber();
 	std::cin.get();
 	return 0;
 }

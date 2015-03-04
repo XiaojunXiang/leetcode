@@ -4,7 +4,7 @@
 #include "converttotitle.h"
 #include "rotatearray.h"
 #include "findpeakelement.h"
-
+#include "largestnumber.h"
 using namespace std;
 
 
@@ -66,4 +66,22 @@ void TestCase::testFindPeakElement()
 
 	int peakElement = fpe.findPeakElement(nums);
 	std::cout << peakElement << std::endl;
+}
+
+void TestCase::testLargestNumber()
+{
+	LargestNumber ln;
+	std::vector<int> nums;
+	//nums.push_back(3);
+	//nums.push_back(30);
+	//nums.push_back(34);
+	//nums.push_back(5);
+	//nums.push_back(9);
+	//nums.push_back(1);
+	nums.push_back(999999998);
+	nums.push_back(999999997);
+	nums.push_back(999999999);
+
+	//cout << std::atof("999999998999999999");
+	std::cout << ln.largestNumber(nums) << std::endl;
 }

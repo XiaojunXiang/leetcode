@@ -12,4 +12,5 @@ public:
 	void testConvertToTitle();
 	void testRotateArray();
 	void testFindPeakElement();
+	void testLargestNumber();
 };
