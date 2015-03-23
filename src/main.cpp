@@ -7,7 +7,16 @@ int main()
 	//tc.testConvertToTitle();
 	//tc.testRotateArray();
 	//tc.testFindPeakElement();
-	tc.testLargestNumber();
+	//tc.testLargestNumber();
+	//tc.testExcelSheetColumnNumber();
+	//tc.testDungeonGame();
+	//tc.TestFindMinimuminRotatedSortedArray();
+	//tc.testCompareVersionNumbers();
+	//tc.TestFindMinimuminRotatedSortedArrayII();
+	//tc.testInIntersectionofTwoLinkedLists();
+	//tc.testMinStack();
+	//tc.testMaximumProductSubarray();
+	tc.testMajorityElement();
 	std::cin.get();
 	return 0;
 }

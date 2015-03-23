@@ -13,4 +13,13 @@ public:
 	void testRotateArray();
 	void testFindPeakElement();
 	void testLargestNumber();
+	void testExcelSheetColumnNumber();
+	void testDungeonGame();
+	void TestFindMinimuminRotatedSortedArray();
+	void TestFindMinimuminRotatedSortedArrayII();
+	void testInIntersectionofTwoLinkedLists();
+	void testCompareVersionNumbers();
+	void testMinStack();
+	void testMaximumProductSubarray();
+	void testMajorityElement();
 };
